@@ -1,6 +1,6 @@
 {
   "name": "@stridetime/types",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Domain types and enums for Stride (shared between all Stride packages)",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -13,7 +13,10 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -42,7 +45,12 @@
     "typescript": "^5.8.3",
     "vitest": "^2.0.0"
   },
-  "keywords": ["stride", "types", "domain", "shared"],
+  "keywords": [
+    "stride",
+    "types",
+    "domain",
+    "shared"
+  ],
   "author": "Stride Team",
   "license": "AGPL-3.0",
   "repository": {
