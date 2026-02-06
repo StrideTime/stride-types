@@ -31,7 +31,7 @@ export type {
 } from "./entities";
 
 // Auth
-export type { SignInCredentials, AuthSession, AuthProvider } from "./auth";
+export type { SignInCredentials, AuthSession, AuthEventType, AuthProvider, OAuthProvider } from "./auth";
 
 // Inputs
 export type {
